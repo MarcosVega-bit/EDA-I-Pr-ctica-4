@@ -8,7 +8,7 @@ int main (){//Función principal
 	if (arreglo!=NULL) {
 	   printf("Vector reservado:\n\t["); 
 	   for (cont=0 ; cont<num ; cont++){
-	     printf("\t%d",*(arreglo+cont));
+	     printf("\t%d",*(arreglo+cont));//Recorre con arreglo el liugar de memoria que se le asigna 
 	   }
 	   printf("\t]\n");
 	   printf("Se libera el espacio reservado.\n");
