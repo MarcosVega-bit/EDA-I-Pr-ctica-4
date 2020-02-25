@@ -1,7 +1,7 @@
-#include <stdio.h>
- #include <stdlib.h>
-int main (){
-	int *arreglo, num, cont;
+#include <stdio.h>//Libreria standar input and output
+ #include <stdlib.h>//Libreria para funciones de memoria dinámica
+int main (){//Función principal
+	int *arreglo, num, cont;//Declaramos las variablñes y el apuntador
 	printf("¿Cuantos elementos tiene el conjunto?\n");
 	scanf("%d",&num);
 	arreglo = (int *)malloc (num * sizeof(int));
